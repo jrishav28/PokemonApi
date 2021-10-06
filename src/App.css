@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  color: rgb(42, 185, 204);
+  background-color: rgba(24, 26, 7, 0.993);
+}
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+}
+header {
+  text-align: center;
+}
+h1 {
+  padding: 10px;
+  height: inherit;
+  background-color: #f5deb3;
+}
+.heading {
+  font-family: cursive;
+}
+h2,
+h4 {
+  margin-right: 30px;
+  color: white;
+}
+h3 {
+  text-align: center;
+  color: red;
+}
+.poke-names {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* text-align: center; */
+  padding: 10px;
+}
+.poke-names select {
+  border-radius: 10px;
+  font-size: x-large;
+  padding: 5px;
+  background-color: rgba(216, 191, 216, 0.24);
+  color: rgb(231, 247, 15);
+}
+span {
+  /* text-decoration: underline;
+  text-decoration-color: black; */
+  background-color: white;
+  color: rgb(255, 0, 34);
+  font-family: cursive;
+}
+.poke-abilities {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+.poke-abilities select {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(216, 191, 216, 0.24);
+  font-size: large;
+  color: rgb(184, 247, 10);
+}
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  color: white;
+}
+.inner {
+  /* align-self: center; */
+  border: 5px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  width: 400px;
+  background-color: rgba(20, 27, 32, 0.596);
+}
+
+.details p {
+  /* border-radius: 5px; */
+  /* margin-bottom: 5px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  color: rgb(61, 61, 38);
+  padding: 5px;
+}
+.details img {
+  border-radius: 2px;
+  background-color: rgb(231, 217, 190);
+  margin-top: 4px;
+  width: 400px;
+  height: 200px;
+}
