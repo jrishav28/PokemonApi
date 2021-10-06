@@ -34,7 +34,7 @@ describe("App Component", () => {
     expect(wrapper.find("Connect(SelectComp)")).toHaveLength(1);
   });
 
-  it("shound have PokeDetails Component", () => {
+  it("shound have PokeDetails   Component", () => {
     expect(wrapper.find("Connect(PokeDetails)")).toHaveLength(1);
   });
   it("props check", () => {
